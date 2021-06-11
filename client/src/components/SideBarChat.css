@@ -1,0 +1,26 @@
+.sidebar-chat:hover {
+  background-color: #fff;
+}
+
+.sidebar-chat h2 {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.sidebar-chat a {
+  text-decoration: none;
+  color: #000;
+}
+
+.sidebar-chat__info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid lightgrey;
+  padding: 20px 0;
+}
+
+.sidebar-chat__info .item {
+  margin-left: 15px;
+}

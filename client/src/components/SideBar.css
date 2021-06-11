@@ -1,0 +1,61 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.35;
+}
+
+.sidebar__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+.sidebar__header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar__header-left .user-info {
+  margin-left: 10px;
+}
+.sidebar__header-left .user-info h3 {
+  font-size: 16px;
+}
+.sidebar__header-left .user-info p {
+  font-size: 14px;
+  color: gray;
+}
+
+.sidebar__header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar__header-right .MuiMenu-list .logout {
+  color: red;
+}
+
+.sidebar__header-right > .MuSvgIcon-root {
+  margin-right: 2vw;
+  font-size: 24px !important;
+}
+
+.sidebar__search {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  height: 35px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.sidebar__search > input {
+  border: none;
+  outline-width: 0;
+  margin-left: 10px;
+}
+
+.sidebar__friends {
+  margin: 16px;
+}

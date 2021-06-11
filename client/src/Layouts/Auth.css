@@ -1,11 +1,11 @@
-.app {
+.auth {
   display: grid;
   place-items: center;
   height: 100vh;
   background-color: #dadbd3;
 }
 
-.app__body {
+.auth__body {
   display: flex;
   background-color: #fff;
   height: 95vh;

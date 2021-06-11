@@ -1,0 +1,68 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #dadbd3;
+}
+
+.login__body {
+  display: flex;
+  background-color: #fff;
+  height: 95vh;
+  width: 95vw;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}
+
+.login__body .sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.35;
+  justify-content: center;
+}
+
+.login__body .content {
+  display: flex;
+  flex-direction: column;
+  flex: 0.65;
+  background-image: url("https://imagenes.elpais.com/resizer/I4OzlTfbhdULLF78VxV2a741PPc=/1960x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/HVEFSXBE5CAL7UW5KAEHAH5ECU.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sidebar .form {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.form .MuiTextField-root {
+  margin-top: 10px;
+}
+
+.form .MuiButton-outlinedPrimary {
+  margin-top: 20px;
+}
+.MuiButton-outlinedPrimary {
+  color: #2ab817c2;
+  border: 1px solid #34cc20c2;
+}
+.MuiButton-outlinedPrimary:hover {
+  border: 1px solid #2ab817c2;
+}
+
+.MuiInputBase-root {
+  width: 300px;
+}
+
+.sign-up {
+  margin-top: 20px;
+}
+.sign-up span {
+  color: #2ab817c2;
+  font-weight: bolder;
+}
+.sign-up span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
